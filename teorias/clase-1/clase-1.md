@@ -13,6 +13,12 @@ Un navegador web (Chrome, Firefox, Safari, etc) para mostrar una página web, in
 
 En este curso vamos a enforcarnos en el aprendizaje de HTML y CSS.
 
-## Que es Pug y SASS ?
+## Pug y SASS
 Tanto HTML como CSS son lenguajes antiguos (para la historia de la programación) y a pesar de que están en constante crecimiento, su sintaxis (la forma de escribir el código) no ha cambiado desde sus inicios. Esto significa que no son muy agradables de ver y entender. Tanto para aprender como para trabajar, escribir código HTML y CSS de forma directa se vuelve tedioso y frustrante.
 
+Para solucionar este problema, existen `motores de plantilla` (template engine) que te ofrecen una sintaxis mucho mas agradable e intuitiva (además de otras funcionalidades). Utilizando estos `motores de plantilla`, el maquetador escribe un código mas simple, entendible y organizado, y luego los motores construyen el HTML y CSS resultante a partir de ese código.
+
+- **Pug** es el `motor de plantilla` para construir HTML a partir de un código mas simple.
+- **SASS** es el `motor de plantilla` para construir CSS a partir de un código mas simple.
+
+## Codepen
