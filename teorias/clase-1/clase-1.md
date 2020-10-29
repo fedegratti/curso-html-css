@@ -28,7 +28,7 @@ Para solucionar este problema, existen `motores de plantilla` (template engine) 
 **div**: Es uno de los elementos mas simples y a la vez mas importantes que tiene HTML. Si se quiere, se podría construir una página web completa solo con elementos div. Sirve para hacer una división dentro de la página.
   - Hereda pocas propiedades CSS de forma predeterminada.
   - Puede ser tanto un **elemento de estructura** como un **elemento visual**.
-  - Se pueden poner un `div` adentro de otro `div`.
+  - Se puede poner un `div` adentro de otro `div`.
   - Sintaxis: 
     ```pug
     div Hola curso!
