@@ -69,6 +69,6 @@ Para solucionar este problema, existen `motores de plantilla` (template engine) 
    - Es una **propiedad de estilo**.
    - Sintaxis:
    ```sass
-   font-size: 20px;
+   font-size: 20px
    ```
   
