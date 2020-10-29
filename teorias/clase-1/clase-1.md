@@ -35,9 +35,19 @@ Para solucionar este problema, existen `motores de plantilla` (template engine) 
     ```
 
 **a**: Elemento para definir un link hacia algo externo (otra pagina, un mail, un teléfono).
-  - Tiene una propiedad única llamada `href` donde se define la url externa
-  - No se puede poner un `a` adentro de otro `a`.
+  - Tiene una propiedad única llamada `href` donde se define la url externa.
+  - Es un **elemento visual**.
   - Sintaxis: 
     ```pug
-    a(href='https://google.com') Ir a google
+    a(href='https://ohzi.io') Ir a OHZI
     ```
+
+**img**: Elemento para cargar una imagen.
+  - Tiene una propiedad única llamada `src` donde se define la url de la imagen.
+  - Es un **elemento visual**,
+  - Sintaxis:
+  ```pug
+  img(src='https://ohzi.io/img/team/5.jpg')
+  ```
+  
+  
