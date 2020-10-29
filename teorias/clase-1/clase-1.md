@@ -22,3 +22,16 @@ Para solucionar este problema, existen `motores de plantilla` (template engine) 
 - **SASS** es el `motor de plantilla` para construir CSS a partir de un código mas simple.
 
 ## Codepen
+[Codepen](https://codepen.io/) es una página web que nos permite escribir código `pug` y `sass` en una interfaz simple y nos permite ver el resultado en tiempo real. Al comienzo del curso vamos a utilizar **Codepen** para ver ejemplos y hacer prácticas.
+
+## Primeros elementos HTML
+**div**: Es uno de los elementos mas simples y a la vez mas importantes que tiene HTML. Si se quiere, se podría construir una página web completa solo con elementos div. Sirve para hacer una división dentro de la página.
+  - Hereda pocas propiedades CSS de forma predeterminada.
+  - Se puede utilizar tanto como **elemento de estructura** como **elemento visual**.
+  - Se pueden poner un `div` adentro de otro `div`.
+  - Sintaxis: `div Contenido del div`
+
+**a**: Elemento para definir un link hacia algo externo (otra pagina, un mail, un teléfono).
+  - Tiene una propiedad única llamada `href` donde se define la url externa
+  - No se puede poner un `a` adentro de otro `a`.
+  - Sintaxis: `a(href='https://google.com') Ir a google`
