@@ -29,9 +29,15 @@ Para solucionar este problema, existen `motores de plantilla` (template engine) 
   - Hereda pocas propiedades CSS de forma predeterminada.
   - Se puede utilizar tanto como **elemento de estructura** como **elemento visual**.
   - Se pueden poner un `div` adentro de otro `div`.
-  - Sintaxis: `div Contenido del div`
+  - Sintaxis: 
+    ```pug
+    div Hola curso!
+    ```
 
 **a**: Elemento para definir un link hacia algo externo (otra pagina, un mail, un teléfono).
   - Tiene una propiedad única llamada `href` donde se define la url externa
   - No se puede poner un `a` adentro de otro `a`.
-  - Sintaxis: `a(href='https://google.com') Ir a google`
+  - Sintaxis: 
+    ```pug
+    a(href='https://google.com') Ir a google
+    ```
