@@ -44,10 +44,31 @@ Para solucionar este problema, existen `motores de plantilla` (template engine) 
 
 **img**: Elemento para cargar una imagen.
   - Tiene una propiedad única llamada `src` donde se define la url de la imagen.
-  - Es un **elemento visual**,
+  - Es un **elemento visual**.
   - Sintaxis:
   ```pug
   img(src='https://ohzi.io/img/team/5.jpg')
   ```
   
+  ## Primeras propiedades CSS
+  **color**: Propiedad para definir el color del texto contenido en un elemento HTML.
+    - Es una **propiedad de estilo**.
+    - Sintaxis:
+    ```sass
+    color: #ffffff
+    ```
+  
+  **background-color**: Propiedad para definir el color de fondo de un elemento HTML.
+    - Es una **propiedad de estilo**.
+    - Sintaxis:
+    ```sass
+    background-color: green
+    ```
+    
+ **font-size**: Propiedad para definir el tamaño del texto contenido en un elemento HTML.
+   - Es una **propiedad de estilo**.
+   - Sintaxis:
+   ```sass
+   font-size: 20px;
+   ```
   
