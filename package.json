@@ -10,7 +10,7 @@
     "dolo": "cd practicas/dolo && npm run build && cd .. && npm run fede",
     "fede": "cd practicas/fede && npm run build && cd .. && npm run ivan",
     "ivan": "cd practicas/Ivan && npm run build && cd .. && npm run manu",
-    "manu": "cd practicas/manu-granchi && npm run build && cd .. && npm run nadia",
+    "manu": "cd practicas/manu-franchi && npm run build && cd .. && npm run nadia",
     "nadia": "cd practicas/nadia && npm run build && cd .. && npm run palu",
     "palu": "cd practicas/palu && npm run build"
   },
