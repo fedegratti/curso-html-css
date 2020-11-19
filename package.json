@@ -1,0 +1,24 @@
+{
+  "name": "curso-html-css",
+  "version": "1.0.0",
+  "description": "Curso de HTML y CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd practicas/fede && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedegratti/curso-html-css.git"
+  },
+  "keywords": [
+    "curso",
+    "html",
+    "css"
+  ],
+  "author": "Federico Gratti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedegratti/curso-html-css/issues"
+  },
+  "homepage": "https://github.com/fedegratti/curso-html-css#readme"
+}
