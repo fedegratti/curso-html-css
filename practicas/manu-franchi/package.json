@@ -1,0 +1,36 @@
+{
+  "name": "ohzi-boilerplate",
+  "description": "OHZI Boilerplate.",
+  "author": "OHZI Interactive",
+  "version": "2.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tinotibaldo/ohzi-core.git"
+  },
+  "scripts": {
+    "start_tracker": "node start_tracker.js",
+    "start": "parcel ./app/index.pug --no-cache",
+    "build": "parcel build ./app/index.pug --out-dir ../dist/fede --public-url ./ --no-minify --no-cache "
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-html-externals": "^0.2.0",
+    "parcel-plugin-static-files-copy": "^2.3.1",
+    "pug": "^2.0.4",
+    "sass": "^1.29.0"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "app/libs",
+        "staticOutDir": "libs"
+      },
+      "app/assets"
+    ],
+    "watcherGlob": "**"
+  },
+  "externals": {
+    "libs/**/*": false
+  }
+}
