@@ -1,2 +1,6 @@
-.home {
-}
+.home 
+.Links{display: flex;
+    flex-direction: column;}
+.Link:hover{ background-color: grey;}
+.Link{font-family: arial;
+    font-size: 70px;}
