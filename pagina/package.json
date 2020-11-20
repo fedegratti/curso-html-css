@@ -35,5 +35,18 @@
     "parcel-plugin-static-files-copy": "^2.3.1",
     "pug": "^2.0.4",
     "sass": "^1.29.0"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "app/libs",
+        "staticOutDir": "libs"
+      },
+      "app/assets"
+    ],
+    "watcherGlob": "**"
+  },
+  "externals": {
+    "libs/**/*": false
   }
 }
