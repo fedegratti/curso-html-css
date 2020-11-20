@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel ./app/index.pug --no-cache",
     "build": "parcel build ./app/index.pug --no-minify --no-cache  && npm run agus",
-    "agus": "cd ../practicas/agus && npm run build && cd ../../pagina && npm run caco",
+    "agus": "cd ../practicas/agus && npm run build",
     "caco": "cd ../practicas/caco && npm run build && cd ../../pagina && npm run dolo",
     "dolo": "cd ../practicas/dolo && npm run build && cd ../../pagina && npm run fede",
     "fede": "cd ../practicas/fede && npm run build && cd ../../pagina && npm run ivan",
