@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+}
+
+    .menu__item {
+        margin: 10px 0;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .menu__item--blue {
+        background-color: blue;
+    }
+
+    .menu__item--red {
+        background-color: red;
+    }
+
+    .menu__item:hover {
+        background-color: #ddd;
+        color: black;
+    }
