@@ -11,7 +11,7 @@
   "scripts": {
     "start_tracker": "node start_tracker.js",
     "start": "parcel ./app/index.pug --no-cache",
-    "build": "parcel build ./app/index.pug --out-dir ../dist/caco --public-url ./ --no-minify --no-cache "
+    "build": "parcel build ./app/index.pug --out-dir ../../pagina/dist/caco --public-url ./ --no-minify --no-cache "
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
