@@ -1,9 +1,11 @@
 .titulo {
-    display: flex
-    flex-direction: row
-
+    display: flex;
+    flex-direction: row;
 }
-.titulocentro{font-size: 60px;}
+
+.titulocentro{
+    font-size: 60px;
+}
 
 .links {
     display: flex;
@@ -15,7 +17,7 @@
     background: rgb(212,88,171);
     background: radial-gradient(circle, rgba(212,88,171,0.9780287114845938) 0%, rgba(148,173,233,1) 76%);
     -webkit-background-clip: text;
-         -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .links:hover {
@@ -23,6 +25,8 @@
     border-radius: 5px;
 }
 
-.body{display: flex;
-flex-direction: row;
-justify-content: space-between;}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
