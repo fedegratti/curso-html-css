@@ -26,6 +26,14 @@
   - `flex-end`: Los elementos se colocan bien en el fondo del contenedor. O bien a la derecha, si `flex-direction` tiene el valor `column`.
   - `center`: Los elementos se colocan en el centro del contenedor verticalmente. U horizontalmente, si `flex-direction` tiene el valor `column`.
 
+[**position**](https://developer.mozilla.org/es/docs/Web/CSS/position): Establece cómo se coloca un elemento dentro de su espacio disponible (el espacio del padre o del sitio). Los valores posibles son:
+  - `static`: El elemento es posicionado de acuerdo al flujo normal del documento. (Valor predeterminado en un `div`).
+  - `relative`: El elemento es posicionado de acuerdo al flujo normal del documento, y luego es desplazado con relación a sí mismo, con base en los valores de top, right, bottom, and left. El desplazamiento no afecta la posición de ningún otro elemento; por lo que, el espacio que se le da al elemento en el esquema de la página es el mismo como si la posición fuera static. Este valor crea un nuevo contexto de apilamiento, donde el valor de z-index no es auto.
+  - `absolute`: El elemento es removido del flujo normal del documento, sin crearse espacio alguno para el elemento en el esquema de la página. Es posicionado relativo a su ancestro posicionado más cercano, si lo hay; de lo contrario, se ubica relativo al bloque contenedor inicial (body). Su posición final está determinada por los valores de top, right, bottom, y left.
+Este valor crea un nuevo [`contexto de apilamiento`](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Positioning/entendiendo_z_index/El_contexto_de_apilamiento) cuando el valor de z-index no es auto. Elementos absolutamente posicionados pueden tener margen, y no colapsan con ningún otro margen.
+  - `fixed`: El elemento es removido del flujo normal del documento, sin crearse espacio alguno para el elemento en el esquema de la página. Es posicionado con relación al body.
+
 ## Propiedades de estilo
+
   - [**border**](https://developer.mozilla.org/es/docs/Web/CSS/border): Define el borde de un elemento. Elemplo: `border: 1px solid black`.
   - [**font-family**](https://developer.mozilla.org/es/docs/Web/CSS/font-family): Define una lista de fuentes con un orden de prioridad (de mas importante a menos importante). Elemplo: `font-family: Arial, sans-serif`.
