@@ -1,31 +1,40 @@
 @import  url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
-.contenedor {  
+div.pag {  
   width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: Montserrat;
 }
 
-    div.cabecera {
+    div.head {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         background-color: gray;
     }
 
-        img.mundo {
+        img.head__left__pic {
             width: 120px;
         }  
   
-    div.cuerpo {
+    div.body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }                
-        a.tag1 {
+        
+    }   
+        div.body__center {
+            height: 33%;
+        
+        }     
+        a.body__left__tag1 {
             text-decoration: none;
             color: black;
         }
-    div.pie {
+    div.feet {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
