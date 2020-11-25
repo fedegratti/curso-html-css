@@ -1,2 +1,33 @@
-.home {
+@import  url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.contenedor {  
+  width: 100%;
+  font-family: Montserrat;
 }
+
+    div.cabecera {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: gray;
+    }
+
+        img.mundo {
+            width: 120px;
+        }  
+  
+    div.cuerpo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }                
+        a.tag1 {
+            text-decoration: none;
+            color: black;
+        }
+    div.pie {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: gray;
+    }  
