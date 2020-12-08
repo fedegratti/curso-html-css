@@ -1,0 +1,68 @@
+.sign-in {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e1e24;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+    .sign-in__container {
+        width: 400px;
+        background-color: white;
+        border-radius: 9px;
+    }
+
+        .sign-in__form {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;            
+        }
+
+            .sign-in__title {
+                text-transform: uppercase;
+                font-weight: 200;
+                letter-spacing: 2px;
+                text-align: center;
+                margin-bottom: 24px;
+                color: #333;
+                font-size: 34px;
+            }
+
+            .sign-in__password {
+                margin-bottom: 32px;
+            }
+
+            .sign-in__forgot-password {
+                display: flex;
+                justify-content: left;
+                margin-bottom: 24px;
+                color: #666;
+                font-size: 13px;
+                font-weight: bold;
+            }
+
+            .sign-in__send-button {
+                //background-color: #14847b;
+                background: linear-gradient( to right, #47bfff 5%, #1a44c2 60%);
+                background-position: 25%;
+                background-size: 330% 100%;
+                color: #c3e1f8;
+                text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );
+                padding: 8px 16px;
+                font-size: 16px;
+                border: none;
+                margin: 0px 16px 16px 16px;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+
+            .sign-in__send-button:hover {
+                //background-color: #0d534d;
+                background: linear-gradient( to right, #47bfff 5%, #1a44c2 60%);
+                background-size: 330% 100%;
+            }
+
+            
