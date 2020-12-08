@@ -25,9 +25,18 @@
                 color: #333;
             }
 
-            .sign-in__password {
-                margin-bottom: 8px;
+            .sign-in__input {
+                display: flex;
+                position: relative;
+                align-items: center;
+                margin-bottom: 16px;
             }
+
+                .sign-in__input-icon {
+                    display: flex;
+                    position: absolute;
+                    left: 12px;
+                }
 
             .sign-in__forgot-password {
                 margin-bottom: 24px;

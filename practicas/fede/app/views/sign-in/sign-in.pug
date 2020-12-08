@@ -2,7 +2,16 @@ div.sign-in
     div.sign-in__container
         form.sign-in__form(action='#')
             div.sign-in__title Enter your email address and password.
-            input.input.sign-in__email(type="email", placeholder="Poneme el email")
-            input.input.sign-in__password(type="password", placeholder="Poneme la pass")
+
+            div.sign-in__input
+                div.sign-in__input-icon
+                    include /assets/images/sign-in/mail.svg
+                input.input.sign-in__email(type="email", placeholder="Poneme el email")
+
+            div.sign-in__input
+                div.sign-in__input-icon
+                    include /assets/images/sign-in/password.svg
+                input.input.sign-in__password(type="password", placeholder="Poneme la pass")
+
             a(href="#").sign-in__forgot-password Forgot your password?
             input.sign-in__send-button(type="submit", value="Iniciar Sesion")
