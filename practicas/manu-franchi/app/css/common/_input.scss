@@ -1,9 +1,16 @@
 .input {
-    margin-bottom: 16px;
+    //margin-bottom: 16px;
     font-size: 16px;
     padding: 8px 16px;
     border: 1px solid #26282D;
     border-radius: 3px;
     color: #828385;
     background: #32353C;
+    outline: none;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.input:hover {
+    color: #fcfcfc;
 }
