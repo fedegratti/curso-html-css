@@ -1,0 +1,22 @@
+.bkgrnd{position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;}
+
+.container{display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+.heading{display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+.logo{height: 62px;
+position: absolute;
+margin-top: -20px;}
+
+.sign-in{display: flex;
+flex-direction: row;
+right: 100px;}
+//right: 50;
+//top: 0;}
