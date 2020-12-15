@@ -33,7 +33,7 @@
         .sign-in__form {
             display: flex;
             flex-direction: column;
-            padding: 40px; 
+            padding: 40px;
         }
 
             .sign-in__background{
@@ -49,7 +49,7 @@
                 text-align: center;
                 margin-bottom: 24px;
                 color: #ffffff;
-                font-size: 34px;   
+                font-size: 34px;
             }
 
             .sign-in__password {
@@ -76,6 +76,17 @@
                         display: flex;
                         position: absolute;
                         left: 12px;
+
+                        path {
+                            fill: white;
+                            stroke: transparent;
+                        }
+                    }
+
+                    .sign-in__input-icon--password {
+                        path {
+                            fill: white;
+                        }
                     }
 
 

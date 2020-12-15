@@ -1,0 +1,62 @@
+.contenedor {
+  width: 100%;
+}
+.cabecera {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: black;
+}
+.logo {
+  width: 150px;
+  float: right;
+}
+.titulo {
+  color: white;
+}
+.cuerpo {
+  display: flex;
+  margin-top: 10px;
+}
+.video {
+  width: 50%;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.izquierda {
+  margin-right: 50px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+  .menu {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  .opcion {
+    display: block;
+    color: #000;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .opcion:hover {
+    background-color: #555;
+    color: white;
+  }
+
+.pie {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background: black;
+  margin-top: 10px;
+}
+.reciclaje  {
+  width: 50px;
+}
+button {
+  cursor: pointer;
+  margin: 10px;
+}
